@@ -37,7 +37,7 @@ function AudioPlayer() {
                 Play music
             </button>
             <button onClick={pauseMusic}>
-                Pause music
+                Stop music
             </button>
         </div>
     )
