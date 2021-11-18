@@ -1,0 +1,33 @@
+:root {
+    --main-text-color: #ff3e3e;
+    --time-remaining-text-color: #00ff00;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-image: url("../imgs/bg.gif");
+    background-size: cover;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 40px;
+    color: var(--main-text-color);
+}
+
+#countdown {
+    display: flex;
+    margin-top: 20vh;
+    font-size: 35px;
+}
+
+#weeks, #days, #hours, #minutes,  #seconds {
+    color: var(--time-remaining-text-color);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
