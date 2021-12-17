@@ -1,7 +1,7 @@
 import React from 'react';
 
 import mainAudio1 from "../audio/mainAudio1.mp3";
-import mainAudio2 from "../audio/mainAudio1.mp3";
+import mainAudio2 from "../audio/mainAudio2.mp3";
 
 function AudioPlayer() {
 
